@@ -1,2 +1,2 @@
 # build uberjar
-clj -T:Build uberjar
+clj -T:build uberjar
