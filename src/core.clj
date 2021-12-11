@@ -1,4 +1,4 @@
-(ns hello
+(ns core
   (:gen-class))
 
 (defn -main
