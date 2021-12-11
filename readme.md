@@ -1,4 +1,4 @@
-# build uberjar
-clj -T:build uberjar
+# Starter project to build java executable JARs
+clj -T:build uber
 
-this is a test
+clj -T:build clean
