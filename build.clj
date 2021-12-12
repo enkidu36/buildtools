@@ -1,11 +1,11 @@
 (ns build
       (:require [clojure.tools.build.api :as b]))
 
-(def lib 'my/lib1)
-(def version "1.2.4")
+(def lib 'my/starter)
+(def version "0.0.0")
 (def class-dir "target/classes")
 (def basis (b/create-basis {:project "deps.edn"}))
-(def uber-file (format "target/%s-%s-standalone.jar" (name lib) version))
+(def uber-file (format "%s-%s-standalone.jar" (name lib) version))
 
 (defn clean [_]
       (b/delete {:path "target"}))
